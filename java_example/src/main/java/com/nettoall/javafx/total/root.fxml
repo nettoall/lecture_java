@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.nettoall.javafx.total.RootController"
+            prefHeight="200.0" prefWidth="400.0">
+    <bottom>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="btnAdd" layoutX="110.0" layoutY="14.0" mnemonicParsing="false" text="추가"/>
+                <Button fx:id="btnGraph" layoutX="172.0" layoutY="14.0" mnemonicParsing="false" text="학생별 막대그래프"/>
+            </children>
+        </HBox>
+    </bottom>
+    <center>
+        <TableView fx:id="tableView" prefHeight="200.0" prefWidth="420.0" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn prefWidth="100.0" text="이름" resizable="false"/>
+                <TableColumn prefWidth="100.0" text="국어" resizable="false"/>
+                <TableColumn prefWidth="100.0" text="수학" resizable="false"/>
+                <TableColumn prefWidth="100.0" text="영어" resizable="false"/>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>
