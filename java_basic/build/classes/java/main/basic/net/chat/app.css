@@ -1,0 +1,19 @@
+/*text-area 배경색*/
+.text-area {
+    -fx-backgroupd-color: gold;
+}
+
+/*scroll-pane 배경색*/
+.text-area .scroll-pane{
+    -fx-backgroupd-color: transparent;
+}
+
+/*viewport 배경색*/
+.text-area .scroll-pane .viewport {
+    -fx-backgroupd-color: transparent;
+}
+
+/*content 배경색*/
+.text-area .scroll-pane .content{
+    -fx-backgroupd-color: transparent;
+}
