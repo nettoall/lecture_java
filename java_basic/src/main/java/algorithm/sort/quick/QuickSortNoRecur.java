@@ -1,4 +1,4 @@
-package algorithm.sort;
+package algorithm.sort.quick;
 
 import algorithm.stack.IntStack;
 
