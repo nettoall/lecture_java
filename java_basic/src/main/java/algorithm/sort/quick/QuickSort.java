@@ -1,8 +1,7 @@
 package algorithm.sort.quick;
 
 /**
- * 퀵정렬
- */
+ * 퀵정렬 */
 public class QuickSort {
     static void swap(int[] a, int idx1, int idx2){
         int t = a[idx1];
