@@ -1,4 +1,4 @@
-package algorithm.sort;
+package algorithm.sort.bubble;
 
 /**
  * 버블정렬

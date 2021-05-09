@@ -1,4 +1,4 @@
-package algorithm.sort;
+package algorithm.sort.quick;
 
 public class Partition {
     static void swap(int[] a, int idx1, int idx2){
