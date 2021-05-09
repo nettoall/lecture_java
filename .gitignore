@@ -26,9 +26,10 @@ hs_err_pid*
 
 .gradle/
 .idea/
-gradle/
 gradlew
 gradlew.bat
 /settings.gradle
 /SpringBootExam/build/
 /SpringBootExam/out/
+/j2eeExam/build/tmp/war/MANIFEST.MF
+/j2eeExam/build/tmp/compileJava/source-classes-mapping.txt
