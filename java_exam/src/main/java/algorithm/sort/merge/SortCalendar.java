@@ -1,9 +1,9 @@
 package algorithm.sort.merge;
 
-import java.util.GregorianCalendar;
-import static java.util.GregorianCalendar.*;
-
 import java.util.Arrays;
+import java.util.GregorianCalendar;
+
+import static java.util.GregorianCalendar.*;
 
 public class SortCalendar {
 
