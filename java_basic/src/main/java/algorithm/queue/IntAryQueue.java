@@ -1,7 +1,5 @@
 package algorithm.queue;
 
-import algorithm.stack.IntStack;
-
 public class IntAryQueue {
     private int max;
     private int num;

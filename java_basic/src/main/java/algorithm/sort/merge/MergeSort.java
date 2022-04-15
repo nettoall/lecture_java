@@ -33,7 +33,7 @@ public class MergeSort {
 		
 		__mergeSort(a, 0, n - 1);
 		
-		buff = null
+		buff = null;
 	}
 	
 	public static void main(String[] args) {

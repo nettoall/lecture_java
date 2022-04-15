@@ -1,7 +1,5 @@
 package algorithm.queue;
 
-import algorithm.stack.IntStack;
-
 import java.util.Scanner;
 
 public class IntQueueTester {
