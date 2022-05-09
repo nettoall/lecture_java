@@ -1,7 +1,5 @@
 package algorithm.sort.bubble;
 
-import java.util.Scanner;
-
 /**
  * 버블정
  */

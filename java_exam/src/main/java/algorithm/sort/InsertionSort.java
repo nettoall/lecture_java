@@ -1,7 +1,5 @@
 package algorithm.sort;
 
-import java.util.Scanner;
-
 public class InsertionSort {
     static void insertionSort(int[] a, int n){
         for(int i = 1; i < n; i++){

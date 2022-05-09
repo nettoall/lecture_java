@@ -33,3 +33,4 @@ gradlew.bat
 /SpringBootExam/out/
 /j2eeExam/build/tmp/war/MANIFEST.MF
 /j2eeExam/build/tmp/compileJava/source-classes-mapping.txt
+/java_basic/build/distributions/java_basic-1.0.0.tar

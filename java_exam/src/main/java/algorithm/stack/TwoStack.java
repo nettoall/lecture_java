@@ -25,39 +25,39 @@ public class TwoStack {
         }
     }
 
-    public int push1(int x) throws TwoStack.OverflowIntStackException {
+    public int push1(int x) throws OverflowIntStackException {
         if(ptr1 >= ptr2 + 1)
-            throw new TwoStack.OverflowIntStackException();
+            throw new OverflowIntStackException();
         return stk[ptr1++] = x;
     }
 
-    public int push2(int x) throws TwoStack.OverflowIntStackException {
+    public int push2(int x) throws OverflowIntStackException {
         if(ptr1 >= ptr2 + 1)
-            throw new TwoStack.OverflowIntStackException();
+            throw new OverflowIntStackException();
         return stk[ptr1--] = x;
     }
 
-    public int pop1() throws TwoStack.EmptyIntstackException {
+    public int pop1() throws EmptyIntstackException {
         if(ptr1 <= 0)
-            throw new TwoStack.EmptyIntstackException();
+            throw new EmptyIntstackException();
         return stk[--ptr1];
     }
 
-    public int pop2() throws TwoStack.EmptyIntstackException {
+    public int pop2() throws EmptyIntstackException {
         if(ptr2 >= max -1 )
-            throw new TwoStack.EmptyIntstackException();
+            throw new EmptyIntstackException();
         return stk[++ptr2];
     }
 
-    public int peek1() throws TwoStack.EmptyIntstackException {
+    public int peek1() throws EmptyIntstackException {
         if(ptr1 <= 0)
-            throw new TwoStack.EmptyIntstackException();
+            throw new EmptyIntstackException();
         return stk[ptr1 - 1];
     }
 
-    public int peek2() throws TwoStack.EmptyIntstackException {
+    public int peek2() throws EmptyIntstackException {
         if(ptr2 >= max -1)
-            throw new TwoStack.EmptyIntstackException();
+            throw new EmptyIntstackException();
         return stk[ptr2 + 1];
     }
 
